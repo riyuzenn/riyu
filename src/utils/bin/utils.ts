@@ -72,7 +72,7 @@ let ascii = `
 ⢀⣾⣽⣿⣿⣿⣿⠛⢲⣶⣾⢉⡷⣿⣿⠵⣿⠀⠀⠀⠀⠀⠀
 ⣼⣿⠍⠉⣿⡭⠉⠙⢺⣇⣼⡏⠀⠀⠀⣄⢸⠀⠀⠀⠀⠀⠀
 ⣿⣿⣧⣀⣿.........⣀⣰⣏⣘⣆⣀⠀⠀ 
-`
+`;
 
 export const banner = (args?: string[]): string => {
   return `

@@ -1,19 +1,19 @@
 import config from '../../../config.json';
 
-export const instagram = async (args: string[]): Promise<string> => {
-  window.open(`https://www.instagram.com/${config.social.instagram}/`);
+export const twitter = async (args: string[]): Promise<string> => {
+  window.open(`https://www.twitter.com/${config.social.twitter}/`, '_blank');
 
-  return 'Opening instagram...';
+  return 'Opening twitter...';
 };
 
 export const github = async (args: string[]): Promise<string> => {
-  window.open(`https://github.com/${config.social.github}/`);
+  window.open(`https://github.com/${config.social.github}/`, '_blank');
 
   return 'Opening github...';
 };
 
-export const linkedin = async (args: string[]): Promise<string> => {
-  window.open(`https://www.linkedin.com/in/${config.social.linkedin}/`);
+export const discord = async (args: string[]): Promise<string> => {
+  window.open(`https://discord.com/users/${config.social.discord}/`, '_blank');
 
-  return 'Opening linkedin...';
+  return 'Opening discord...';
 };
