@@ -4948,5 +4948,27 @@
     "foreground": "#dcdccc",
     "background": "#3f3f3f",
     "cursorColor": "#dcdccc"
+  }, 
+  {
+    "name": "ivspade",
+    "black": "#121212",
+    "red": "#9d7b7d",
+    "green": "#7b9d7c",
+    "yellow": "#b7a76a",
+    "blue": "#7c899d",
+    "purple": "#9d7b9d",
+    "cyan": "#6c8e8d",
+    "white": "#a0a0a0",
+    "brightBlack": "#151515",
+    "brightRed": "#a78587",
+    "brightGreen": "#85a786",
+    "brightYellow": "#c1a174",
+    "brightBlue": "#8593a7",
+    "brightPurple": "#a785a7",
+    "brightCyan": "#85a7a6",
+    "brightWhite": "#bebebe",
+    "foreground": "#a0a0a0",
+    "background": "#0c0c0c",
+    "cursorColor": "#a0a0a0"
   }
 ]

@@ -45,3 +45,5 @@ bin/
 _static/
 
 .vscode/
+
+package-lock.json
