@@ -87,16 +87,16 @@ const PBootloader = () => {
                   <li>
                     <button
                       onClick={() => {
-                        router.push(`${value.url}`);
+                        window.open(value.url.toString())
                       }}
                       className={`${
                         i === index ? 'bg-[#bebebe] text-[#121212]' : ''
                       }
-                      w-full text-left
+                        w-full text-left
                       `}
                     >
                       {`${i === index ? '*' : ''}${value.name}`}
-                    </button>
+                    </button> 
                   </li>
                 );
               })}
