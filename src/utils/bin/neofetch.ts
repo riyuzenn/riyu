@@ -43,29 +43,28 @@ llllllllllllll  lllllllllllllllllll
                        \`\`\`\`''*::cll
 `;
 
+// I cant find good linux pengwin logo.
 const linux = `
-            .-/+oossssoo+/-.               
-        \`:+ssssssssssssssssss+:\`           
-      -+ssssssssssssssssssyyssss+-         
-    .ossssssssssssssssssdMMMNysssso.       
-   /ssssssssssshdmmNNmmyNMMMMhssssss/      
-  +ssssssssshmydMMMMMMMNddddyssssssss+     
- /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    
-.ssssssssdMMMNhsssssssssshNMMMdssssssss.   
-+sssshhhyNMMNyssssssssssssyNMMMysssssss+   
-ossyNMMMNyMMhsssssssssssssshmmmhssssssso   
-ossyNMMMNyMMhsssssssssssssshmmmhssssssso   
-+sssshhhyNMMNyssssssssssssyNMMMysssssss+   
-.ssssssssdMMMNhsssssssssshNMMMdssssssss.   
- /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/    
-  +sssssssssdmydMMMMMMMMddddyssssssss+     
-   /ssssssssssshdmNNNNmyNMMMMhssssss/      
-    .ossssssssssssssssssdMMMNysssso.
-      -+sssssssssssssssssyyyssss+-
-        \`:+ssssssssssssssssss+:\`
-            .-/+oossssoo+/-.
+                  -\`
+                .o+\`
+                \`ooo/
+              \`+oooo:
+              \`+oooooo:
+              -+oooooo+:
+            \`/:-:++oooo+:
+          \`/++++/+++++++:
+          \`/++++++++++++++:
+        \`/+++ooooooooo oooo/\`
+        ./ooosssso++osssssso +\`
+      .oossssso-\`\`\`\`/ossssss+\`
+      -osssssso.      :ssssssso.
+    :osssssss/        osssso+++.
+    /ossssssss/        +ssssooo/- 
+  \`/ossssso+/:-        -:/+osssso+- 
+\`+sso+:-\`                 \`.-/+oso: 
+\`++:.                           \`-/+/ 
+.\`                                 \`/ 
 `;
-
 const getPlatform = (): 'Unknown' | 'Windows' | 'MacOS' | 'Linux' => {
   let os: 'Unknown' | 'Windows' | 'MacOS' | 'Linux' = 'Unknown';
 
@@ -133,7 +132,7 @@ const getInfo = () => {
     packages.length + devPackages.length
   } (npm)\n`;
   message += `<span style="color: ${mainColor}">Resolution</span>: ${resolution}\n`;
-  message += `<span style="color: ${mainColor}">Shell</span>: m4tt72-web\n`;
+  message += `<span style="color: ${mainColor}">Shell</span>: rshell\n`;
   message += `<span style="color: ${mainColor}">Theme</span>: ${theme}\n`;
   message += `<span style="color: ${mainColor}">License</span>: ${packageJson.license}\n`;
   message += `<span style="color: ${mainColor}">Version</span>: ${packageJson.version}\n`;
